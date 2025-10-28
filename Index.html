@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet'>
+    <style>
+ body {
+    background-color: #c4bbc6
+  }
+
+  h1, h2, h3 {
+    font-weight: 900;
+    text-align: center;
+  }
+  h1{
+    font-style: oblique
+  }
+  h2{
+    font-style: unset;
+    font-family: 'Arbutus';font-size: 22px;
+    color: #4A4A4A;
+}
+  h3{
+    font-style: italic;
+  }
+  p {
+    text-align: center;
+    font-size: medium;
+    color: #858485;
+  }
+  .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 5px;
+        }
+header {
+    font-family: copperplate, Papyrus, fantasy;
+    font-size-adjust: calc(1);
+    text-align: center;
+    background-color: #fffeff7e;
+    color: #4A4A4A;
+    padding: 10px 5px;
+    margin: 5px;  
+    border-radius: 10px 1dvb;
+}
+nav ul{
+    list-style: none; padding: 0; text-align: center; background-color: #4A4A4A; margin: 0; border-radius: 5px; margin: 5px; 
+}
+nav ul li {
+    display: inline-block; margin: 0 15px; 
+}
+nav ul li a {
+    text-decoration: none; color: rgb(234, 232, 235); font-weight: bold; transition: 0.3s; 
+}
+nav ul li a:hover {
+    color: rgb(247, 184, 184); transform: scale(1.05);
+}
+ section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        #about {
+            background-color: #f9f9f9;
+        }
+
+        #projects {
+            background-color: #fff;
+        }
+
+        #skills {
+            background-color: #f9f9f9;
+        }
+
+        #education {
+            background-color: #fff;
+        }
+
+        /* Project cards */
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(143, 64, 64, 0.964);
+        }
+table, th, td {
+        border: 1px solid #444444;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        th {
+        padding: 10px;
+        color: #5e09ad; }
+        td {
+        padding: 10px;
+        color: #0d0514
+}
+footer {
+            text-align: center;
+            background-color: #fffeff7e;
+            color: #8a34da;
+            padding: 5px 5px;
+            margin-top: 5px;
+        }
+footer a {
+            display: inline-block;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            margin: 5px;
+            border-radius: 50%;
+            background-color: #0077b5;
+            /* default color, can customize per icon */
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            transition: 0.3s;
+}
+footer a.email {
+            background-color: #3157de;
+}
+
+footer a.phone {
+            background-color: #00aa00;
+}
+
+</style>
+</head>
+<body>
+    <header><h1>My Portfolio </h1></header> 
+     <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+<main>
+        <section id="about">
+            <pre>.                                            <img src = "Nishant.jpeg" "alt="Nishant Sharma" class="profile-pic" width="10" ></pre>
+            <h2>About Me</h2>
+            <p>
+                I am <b>Nishant Sharma</b>, a <i>BCA(Hons. with Research)</i> student at <b><i><u>Amity University
+                Rajasthan</i></b></u>.
+                <br>
+                <br>
+                The core of my academic path is a thorough investigation of computer applications, with an emphasis on research techniques that enable me to make contributions to the subject. Network security, database administration, and software development are just a few of the many topics covered in my program. My degree's "Research" component has equipped me with priceless abilities in independent study, problem-solving, and critical thinking. I'm eager to use what I've learned to tackle challenging problems, and I'm looking for chances to develop my abilities in a work environment.
+                <br>
+                <br>
+                I am particularly interested in <u>Web Development</u> and <u>Artificial Intelligence</u> and <u>Machine learning</u> and aim to combine my academic knowledge and practical skills to create impactful solutions.
+                <br>
+                <br>
+                Playing sports like <b><i><U>volleyball</U></i></b> and <b><i><u>football</u></i></b> helps me stay balanced and creative, providing a great outlet from my academic work.
+                <br>
+                <br>
+                Before the conclusion of my first year, I want to have mastered two languages and found internships to work on creative projects and obtain practical experience in the tech sector.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: Resume</h3>
+                <p>A personal Resume webpage built using HTML and CSS. It features a responsive design and allows
+                   users to read and comment on posts.</p>
+                <pre>.                                               <a href="/Resume.html" ><img src = "click.png" width="100"></a>
+                
+            </div>
+            <div class="project-card">
+                <h3>Project 2: To-do List</h3>
+                <p>A To-do list webpage` built using HTML and CSS. It features a responsive design and allows
+                    users to view the menu items and their prices.</p>
+                <pre>.                                               <a href="/To-do List.html" ><img src = "click.png" width="100"></a>
+            </div>
+        </section>
+         <section id="skills">
+            <h2>My Skills</h2>
+            <ol type="1">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>Photo Editing</li>
+                <li>Video Editing</li>
+            </ol>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>Biology</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>93</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>90</td>
+                </tr>
+            </table>
+        </section>
+
+         <footer>
+        <h3>Contact Me</h3>
+        <p>
+            <a href="mailto:nishantsharma0973@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:9461966103" class="phone"><i class="fas fa-phone"></i></a>
+            <a href="https://www.instagram.com/_nishantunfiltered?igsh=YzJ1eDFvejJibnky" class="instagram"><i class="fas fa-instagram"></i></a>
+        </p>
+         <p>&copy; 2025 Nishant Sharma. All rights reserved.</p>
+    </footer>
+    </main>
+
+
+    
+</body>
+</html>
